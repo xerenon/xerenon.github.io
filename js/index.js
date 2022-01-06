@@ -17,7 +17,7 @@ function job() {
 const text = baffle(".text__glitch");
 text.set({
     characters: "█▓█ ▒░/▒░ █░▒▓/ █▒▒ ▓▒▓/█ ░█▒/ ▒▓░ █<░▒ ▓/░>",
-    speed: 100
+    speed: 30
 });
 
 text.start();
@@ -35,7 +35,8 @@ window.onscroll = function() {
     scrollanimaionP9(),
     scrollanimaionP10(),
     scrollanimaion11(),
-    scrollanimaion12()
+    scrollanimaion12(),
+    scrollanimaion13() 
 };
 
 
@@ -89,6 +90,8 @@ function scrollanimaionP5() {
        }
     };
 }
+
+
 
 function scrollanimaionP6() {
     if (document.body.scrollTop > 3300 || document.documentElement.scrollTop > 3300) {
@@ -163,6 +166,16 @@ function scrollanimaion12() {
     };
 }
 
+function scrollanimaion13() {
+    if (document.body.scrollTop > 1800 || document.documentElement.scrollTop > 1800) {
+       var x, i;
+       x = document.querySelectorAll(".pos4");
+       for (i = 0; i < x.length; i++) {
+         x[i].style.animation = 'movein 0.5s';
+         x[i].style.opacity = '1';
+       }
+    };
+}
 
 $(document).ready(function(){
     const SELECTOR = {

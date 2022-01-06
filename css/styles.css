@@ -72,7 +72,7 @@ hr{
 
 .nav6{
     margin-top: -43px;
-    margin-left: 98%;
+    margin-left: 95%;
     color: rgba(243, 243, 243, 0.774);
 }
 
@@ -100,13 +100,13 @@ hr{
 
 .subtitle1{
     text-align: center;
-    margin-left: 500px; 
+    margin-left: 420px; 
     color: rgba(245, 245, 245, 0.747);
 }
 
 .subtitle2{
     text-align: center;
-    margin-left: 465px; 
+    margin-left: 405px; 
     color: rgba(245, 245, 245, 0.747);
 }
 
@@ -302,7 +302,7 @@ hr{
     background-color: #1f1f1f;
     padding: 5% 10%;
     padding-bottom: 10%;
-    margin-bottom: -140px;
+    margin-bottom: -120px;
     color: white;
 }
 
@@ -331,7 +331,13 @@ hr{
 }
 
 .portimg3{
-    width: 500px;
+    width: 450px;
+    margin-left: 0px;
+    border-radius: 7px;
+}
+
+.portimg4{
+    width: 450px;
     margin-left: 0px;
     border-radius: 7px;
 }
@@ -354,6 +360,12 @@ hr{
     color: rgba(255, 255, 255, 0.753);
 }
 
+.subportimg4{
+    margin-top: 15%;
+    margin-left: -20%;
+    color: rgba(255, 255, 255, 0.753);
+}
+
 .pos1{
     opacity: 0;
 }
@@ -365,6 +377,12 @@ hr{
 .pos3{
     opacity: 0;
 }
+
+.pos4{
+    opacity: 0;
+}
+
+
 
 .text__glitch{
     letter-spacing: 1px;
@@ -983,7 +1001,7 @@ hr{
     .nav6{
         font-size: 10px;
         margin-top: -33px;
-        margin-left: 98%;
+        margin-left: 95%;
         color: rgba(243, 243, 243, 0.774);
     }
     
